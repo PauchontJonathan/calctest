@@ -1,0 +1,17 @@
+{
+    "name": "john/calctest",
+    "autoload": {
+        "psr-4": {
+            "John\\Calctest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jonathan",
+            "email": "jonathan.pauchont@livecampus.tech"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
