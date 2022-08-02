@@ -1,9 +1,9 @@
 {
     "name": "john/calctest",
     "autoload": {
-        "psr-4": {
-            "John\\Calctest\\": "src/"
-        }
+        "classmap": [
+            "src/"
+        ]
     },
     "authors": [
         {

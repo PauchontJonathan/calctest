@@ -1,4 +1,5 @@
 <?php
+
 class Calculatrice {
     /**
      * preCall
@@ -12,7 +13,7 @@ class Calculatrice {
     {
         $methods = [
             '+' => 'add',
-            '-' => 'minus',
+            '-' => 'sub',
             '*' => 'multiply',
             '/' => 'divide'
         ];
